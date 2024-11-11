@@ -1,0 +1,69 @@
+{
+    "posts": [
+      { 
+        "id": "1", 
+        "title": "Understanding TypeScript", 
+        "description": "A deep dive into TypeScript basics and advanced features.", 
+        "category": "Programming", 
+        "publishedAt": "2024-11-01T14:30:00Z",
+        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
+      },
+      { 
+        "id": "2", 
+        "title": "The Future of Web Development", 
+        "description": "Exploring the latest trends in front-end frameworks and tools.", 
+        "category": "Web Development", 
+        "publishedAt": "2024-10-22T08:00:00Z",
+        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
+      },
+      { 
+        "id": "3", 
+        "title": "Machine Learning for Beginners", 
+        "description": "An introduction to machine learning concepts and algorithms.", 
+        "category": "AI & ML", 
+        "publishedAt": "2024-11-05T11:15:00Z",
+        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
+      },
+      { 
+        "id": "4", 
+        "title": "A Guide to React Hooks", 
+        "description": "Understanding the power and flexibility of React hooks in modern web development.", 
+        "category": "React", 
+        "publishedAt": "2024-09-30T17:45:00Z",
+        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
+      },
+      { 
+        "id": "5", 
+        "title": "Top 10 JavaScript Frameworks in 2024", 
+        "description": "A comprehensive review of the best JS frameworks you should learn this year.", 
+        "category": "JavaScript", 
+        "publishedAt": "2024-10-15T12:00:00Z",
+        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
+      },
+      { 
+        "id": "6", 
+        "title": "Building RESTful APIs with Node.js", 
+        "description": "Learn how to design and implement RESTful APIs using Node.js and Express.", 
+        "category": "Backend", 
+        "publishedAt": "2024-11-03T09:30:00Z",
+        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
+      },
+      { 
+        "id": "7", 
+        "title": "Exploring GraphQL with Apollo", 
+        "description": "A beginner's guide to GraphQL and how to use Apollo to build powerful APIs.", 
+        "category": "API Development", 
+        "publishedAt": "2024-10-28T16:20:00Z",
+        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
+      },
+      { 
+        "id": "8", 
+        "title": "CSS Grid vs Flexbox: Which One to Use?", 
+        "description": "Comparing the two most powerful CSS layout tools and when to use each.", 
+        "category": "Web Design", 
+        "publishedAt": "2024-10-10T10:00:00Z",
+        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
+      }
+    ]
+  }
+  
