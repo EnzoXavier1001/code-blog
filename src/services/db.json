@@ -1,69 +1,90 @@
 {
-    "posts": [
-      { 
-        "id": "1", 
-        "title": "Understanding TypeScript", 
-        "description": "A deep dive into TypeScript basics and advanced features.", 
-        "category": "Programming", 
-        "publishedAt": "2024-11-01T14:30:00Z",
-        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
-      },
-      { 
-        "id": "2", 
-        "title": "The Future of Web Development", 
-        "description": "Exploring the latest trends in front-end frameworks and tools.", 
-        "category": "Web Development", 
-        "publishedAt": "2024-10-22T08:00:00Z",
-        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
-      },
-      { 
-        "id": "3", 
-        "title": "Machine Learning for Beginners", 
-        "description": "An introduction to machine learning concepts and algorithms.", 
-        "category": "AI & ML", 
-        "publishedAt": "2024-11-05T11:15:00Z",
-        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
-      },
-      { 
-        "id": "4", 
-        "title": "A Guide to React Hooks", 
-        "description": "Understanding the power and flexibility of React hooks in modern web development.", 
-        "category": "React", 
-        "publishedAt": "2024-09-30T17:45:00Z",
-        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
-      },
-      { 
-        "id": "5", 
-        "title": "Top 10 JavaScript Frameworks in 2024", 
-        "description": "A comprehensive review of the best JS frameworks you should learn this year.", 
-        "category": "JavaScript", 
-        "publishedAt": "2024-10-15T12:00:00Z",
-        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
-      },
-      { 
-        "id": "6", 
-        "title": "Building RESTful APIs with Node.js", 
-        "description": "Learn how to design and implement RESTful APIs using Node.js and Express.", 
-        "category": "Backend", 
-        "publishedAt": "2024-11-03T09:30:00Z",
-        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
-      },
-      { 
-        "id": "7", 
-        "title": "Exploring GraphQL with Apollo", 
-        "description": "A beginner's guide to GraphQL and how to use Apollo to build powerful APIs.", 
-        "category": "API Development", 
-        "publishedAt": "2024-10-28T16:20:00Z",
-        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
-      },
-      { 
-        "id": "8", 
-        "title": "CSS Grid vs Flexbox: Which One to Use?", 
-        "description": "Comparing the two most powerful CSS layout tools and when to use each.", 
-        "category": "Web Design", 
-        "publishedAt": "2024-10-10T10:00:00Z",
-        "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI"
-      }
-    ]
-  }
-  
+  "posts": [
+    {
+      "id": "1",
+      "title": "Understanding TypeScript",
+      "previewText": "A deep dive into TypeScript basics and advanced features.",
+      "description": "TypeScript is a statically typed superset of JavaScript that brings optional static typing to the language. It enhances JavaScript by adding type annotations, interfaces, generics, and other powerful features. In this post, we will explore TypeScript from the basics to advanced topics. You'll learn how TypeScript improves code quality, helps developers avoid common mistakes, and facilitates the development of large-scale applications. We’ll also cover how to set up TypeScript in your project, how to work with types, and how to use TypeScript with popular frameworks like React and Node.js. Whether you're a beginner or an experienced developer, this post will guide you through the essential features and best practices in TypeScript, helping you become more productive and write more reliable code.",
+      "category": "Programming",
+      "publishedAt": "2024-11-01T14:30:00Z",
+      "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI",
+      "userId": "2",
+      "tags": ["#typescript", "#javascript", "#programming", "#beginners", "#webdevelopment"]
+    },
+    {
+      "id": "2",
+      "title": "The Future of Web Development",
+      "previewText": "Exploring the latest trends in front-end frameworks and tools.",
+      "description": "Web development is constantly evolving, with new tools, frameworks, and paradigms emerging all the time. In this post, we’ll take an in-depth look at the future of web development, focusing on the latest trends that are shaping the industry. From the rise of single-page applications (SPAs) to the increasing popularity of server-side rendering (SSR) and static site generation (SSG), we’ll explore the technologies that are revolutionizing the way we build websites. We will discuss popular front-end frameworks such as React, Vue.js, and Angular, as well as the ecosystem of tools like Next.js, Nuxt.js, and Svelte. Additionally, we'll cover key advancements in web performance, progressive web apps (PWAs), and how web components are changing the development landscape. The future of web development is incredibly exciting, and this post will give you a detailed understanding of what to expect and how to stay ahead of the curve.",
+      "category": "Web Development",
+      "publishedAt": "2024-10-22T08:00:00Z",
+      "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI",
+      "userId": "2",
+      "tags": ["#webdevelopment", "#frontend", "#programming", "#trends", "#frameworks"]
+    },
+    {
+      "id": "3",
+      "title": "Machine Learning for Beginners",
+      "previewText": "An introduction to machine learning concepts and algorithms.",
+      "description": "Machine learning (ML) is a subset of artificial intelligence (AI) that enables systems to learn from data and improve over time without being explicitly programmed. In this comprehensive guide, we will introduce you to the core concepts of machine learning, covering both supervised and unsupervised learning. We’ll start by explaining the basics of algorithms like linear regression, decision trees, and k-nearest neighbors. As you progress, we’ll introduce more advanced techniques like neural networks, deep learning, and reinforcement learning. You will also learn how to handle datasets, prepare data for training, and evaluate machine learning models. This guide is perfect for beginners who are new to the field and want to understand the fundamental principles of ML and how to apply them. Throughout the post, we'll provide practical examples, code snippets, and resources to help you get started with machine learning and begin building your own models.",
+      "category": "AI & ML",
+      "publishedAt": "2024-11-05T11:15:00Z",
+      "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI",
+      "userId": "1",
+      "tags": ["#machinelearning", "#artificialintelligence", "#beginners", "#data", "#algorithms"]
+    },
+    {
+      "id": "4",
+      "title": "A Guide to React Hooks",
+      "previewText": "Understanding the power and flexibility of React hooks in modern web development.",
+      "description": "React hooks were introduced in React 16.8 to enable functional components to manage state and side effects, making them a key part of modern React development. This guide will cover everything you need to know about hooks, including the most commonly used hooks like useState, useEffect, and useContext. We’ll dive into the concepts behind hooks, explain how they work, and why they are so powerful. In addition to the basic hooks, we’ll also explore more advanced hooks such as useReducer, useCallback, and useMemo, and explain when and why to use them. You’ll also learn how to create your own custom hooks, which allows for better reusability and organization of logic in your components. Whether you’re just starting with React or you're an experienced developer looking to improve your code, this guide will give you a deep understanding of hooks and show you how to use them effectively to build scalable and maintainable React applications.",
+      "category": "React",
+      "publishedAt": "2024-09-30T17:45:00Z",
+      "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI",
+      "userId": "1",
+      "tags": ["#react", "#reacthooks", "#frontend", "#javascript", "#webdevelopment"]
+    },
+    {
+      "id": "5",
+      "title": "Top 10 JavaScript Frameworks in 2024",
+      "previewText": "A comprehensive review of the best JS frameworks you should learn this year.",
+      "description": "JavaScript frameworks have become essential tools for web development, providing developers with the structure and functionality they need to build complex applications. In this post, we will review the top 10 JavaScript frameworks that every developer should consider learning in 2024. We’ll take a closer look at popular frameworks like React, Angular, and Vue.js, as well as up-and-coming frameworks such as Svelte, Solid, and Qwik. Each framework will be analyzed in terms of its key features, use cases, and community support. We’ll also compare the strengths and weaknesses of each framework, helping you decide which one is the best fit for your projects. Whether you’re working on a large-scale enterprise application or a small personal project, this guide will provide you with the knowledge you need to make an informed decision about which JavaScript framework to invest your time in.",
+      "category": "JavaScript",
+      "publishedAt": "2024-10-15T12:00:00Z",
+      "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI",
+      "userId": "2",
+      "tags": ["#javascript", "#frameworks", "#webdevelopment", "#programming", "#2024"]
+    },
+    {
+      "id": "6",
+      "title": "Building RESTful APIs with Node.js",
+      "previewText": "Learn how to design and implement RESTful APIs using Node.js and Express.",
+      "description": "Building RESTful APIs is a crucial skill for backend developers, and Node.js, along with the Express framework, is one of the most popular choices for developing scalable and efficient APIs. In this post, we will walk you through the process of designing and implementing RESTful APIs from scratch. You will learn how to set up a Node.js project, use Express to handle routing, and connect your API to a database using tools like MongoDB and PostgreSQL. We'll cover key REST principles, such as statelessness, HTTP methods (GET, POST, PUT, DELETE), and how to structure your API endpoints. Additionally, we'll dive into security best practices, such as handling authentication with JWT (JSON Web Tokens), and ensuring your API is protected against common vulnerabilities like SQL injection and cross-site scripting (XSS). Whether you're building an API for a small application or a large-scale production system, this guide will provide the foundational knowledge you need to build high-quality, maintainable APIs with Node.js and Express.",
+      "category": "Backend",
+      "publishedAt": "2024-11-03T09:30:00Z",
+      "cover": "https://www.limestone.edu/sites/default/files/styles/social_large/public/2022-03/computer-programmer.jpg?h=3d15c898&itok=LCrU37BI",
+      "userId": "2",
+      "tags": ["#nodejs", "#express", "#backend", "#apis", "#programming"]
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Carlos Silva",
+      "email": "carlos.silva@email.com",
+      "profilePic": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Ana Oliveira",
+      "email": "ana.oliveira@email.com",
+      "profilePic": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Pedro Souza",
+      "email": "pedro.souza@email.com",
+      "profilePic": "https://randomuser.me/api/portraits/men/3.jpg"
+    }
+  ]
+}

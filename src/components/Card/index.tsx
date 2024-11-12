@@ -1,26 +1,27 @@
-import { Post } from "@/types/Post";
-import { CardContent, CardHeader, CardStyles } from "./styles";
-import { formatDate } from "@/utils/formatDate";
+import { IPost } from "@/types/Post";
+import { CardContent, CardStyles, CategorySpan } from "./styles";
+import { NavLink } from "react-router-dom";
+import { InfoUser } from "../InfoUser";
+import { generateRandomColor } from "@/utils/generateColor";
 
 type CardProps = {
-    post: Post
+    post: IPost
 }
 
 export const Card = ({ post }: CardProps) => {
     return(
         <CardStyles>
-            <img src={post.cover} alt="" />
+            <img src={post.cover} alt={post.title} />
             <CardContent>
-                <CardHeader>
-                    <img src="https://img.freepik.com/free-vector/young-prince-vector-illustration_1308-174367.jpg?semt=ais_hybrid" alt="" />
-                    <div className="header-content">
-                        <h3>Enzo</h3>
-                        <span>{formatDate(post.publishedAt)}</span>
-                    </div>
-                </CardHeader>
+                <InfoUser 
+                    profileAvatar="https://img.freepik.com/free-vector/young-prince-vector-illustration_1308-174367.jpg?semt=ais_hybrid"
+                    username="Enzo"
+                    publishedAt={post.publishedAt}
+                />
                 <h2>{post.title}</h2>
-                <p>{post.description}</p>
-                <span className="category">{post.category}</span>
+                <p>{post.previewText}</p>
+                <NavLink to={`/post/${post.id}`}>Leia mais</NavLink>
+                <CategorySpan $backgroundColor={generateRandomColor()}>{post.category}</CategorySpan>
             </CardContent>
         </CardStyles>
     );

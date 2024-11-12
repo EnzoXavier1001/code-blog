@@ -27,31 +27,12 @@ export const CardContent = styled.div`
         font-weight: 500;
     }
 
-    .category {
-        display: inline-block;
-        padding: 0.3rem 1.2rem;
-        font-size: 1.5rem;
-        border-radius: 6px;
-        background-color: #fde910;
-    }
 `
 
-export const CardHeader = styled.header`
-    display: flex;
-    align-items: center;
-    gap: 1.2rem;
-
-    img {
-        width: auto;
-        height: 4.0rem;
-    }
-
-    .header-content {
-        color: #6B6B6B;
-
-        h3 {
-            font-weight: bold;
-        }
-    }
-
+export const CategorySpan = styled.span<{$backgroundColor: string;}>`
+    display: inline-block;
+    padding: 0.3rem 1.2rem;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    background-color: ${props => props.$backgroundColor};
 `
