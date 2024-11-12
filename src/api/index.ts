@@ -1,7 +1,15 @@
-import axios, { AxiosResponse } from 'axios';
+import { Post } from "@/types/Post";
+import { User } from "@/types/User";
+import axios, { Method, AxiosResponse } from "axios";
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const request = async <T>(method: string, url: string, data?: any): Promise<AxiosResponse<T>> => {
-  const response = await axios({ method, url, data });
-  return response;
-};
+const api = axios.create({
+    baseURL: 'http://localhost:8070'
+})
+
+export const request = <T>(method: Method, url: string, data?: Post | User): Promise<AxiosResponse<T>> => {
+    return api.request({
+        method,
+        url,
+        data
+    })
+}
