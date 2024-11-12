@@ -10,6 +10,7 @@ export const HeaderWrapper = styled.div`
     align-items: center;
     justify-content: space-between;
     gap: 2.0rem;
+    margin: 0 auto;
     
     div {
         display: flex;
@@ -18,7 +19,7 @@ export const HeaderWrapper = styled.div`
     }
 
     .header-wrapper__left  {
-        flex: 2;
+        flex: 4;
     }
 
     .header-wrapper__right {

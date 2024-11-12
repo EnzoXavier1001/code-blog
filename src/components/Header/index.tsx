@@ -11,7 +11,7 @@ export const Header = () => {
         <Container>
             <HeaderWrapper>
                 <div className="header-wrapper__left">
-                    <BracketsSquare  size={42}/>
+                    <BracketsSquare color="#FFA500" size={42}/>
                     <Input className="!text-2xl py-6 !w-100" type="text" placeholder="Busque aqui"/>
                 </div>
                 <div className="header-wrapper__right">
